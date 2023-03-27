@@ -1,0 +1,122 @@
+*{
+  margin: 0%;
+  padding: 0%;  
+  box-sizing: border-box;
+}
+
+/*____________________________________________________________*/
+/*                       Página Login                         */
+
+/* Fundo Animado */
+
+.body-login{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgb(2, 2, 27);
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bolhas {
+  position: relative;
+  display: flex;
+}
+.bolhas span {
+  position: relative;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  background:purple;
+  margin: 0 4px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px rgb(54, 0, 54),
+  0 0 50px purple,
+  0 0 100px purple;
+  animation: animate 15s linear infinite;
+  animation-duration: calc(120s / var(--i));
+}
+.bolhas span:nth-child(even){
+  background: white;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px lightgray,
+  0 0 50px white,
+  0 0 100px white;
+}
+@keyframes animate {
+  0%
+  {
+    transform: translateY(100vh) scale(0);
+  }
+
+  100%
+  {
+    transform: translateY(-10vh) scale(1);
+  }
+}
+
+/* Box de Login */
+
+.box{
+  display: flexbox;
+  margin: auto;
+  height: 50%;
+  width: 30%;
+  border-radius: 5%;
+  background-color: white;
+  opacity: 0.85;
+  box-shadow: 10 10 10 gray;
+  display: flex;
+  position:relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
+/* Texto da Box de Login */
+.texto-login, .titulo-form, .cadastrar-login, .esqueceu-login {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: solid black;
+}
+
+.titulo-form {
+  font-size: xx-large;
+}
+
+.cadastrar-login{
+  color: slateblue;
+}
+.cadastrar-login:hover {
+  color: purple;
+}
+
+.esqueceu-login{
+  color: slateblue;
+}
+.esqueceu-login:hover {
+  color: purple;
+}
+
+.enviar-login {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  background-color: slateblue;
+  border: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  height: 20px;
+  width: 173px;
+}
+.enviar-login:hover{
+  background-color: purple;
+  color: aliceblue;
+}
+
+

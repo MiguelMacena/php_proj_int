@@ -1,0 +1,72 @@
+/*CSS do Botão Devs*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+}
+
+/* Body*/
+
+body{
+    display: flex;
+    background-image: linear-gradient(to left, lightgray, darkgray, gray);
+    background-size: 500% 100%;
+    align-items: center;
+    justify-content: center;
+    animation: degrade-animado 7s infinite alternate;
+}
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100% ;
+    }
+}
+
+.box {
+    height: 550px;
+    width: 500px;
+    background-color: silver;
+    border: 0;
+    border-radius: 5px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-devs{
+    background-color: black;
+    display: inline-block;
+    justify-content: space-between;
+    cursor: pointer;
+    padding: 10px 90px;
+    border-radius: 25px;
+    color: azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: .5s;
+    border: 0;
+    font-size:small;
+    align-items: center;
+    position: relative;
+    color: azure;
+    text-transform: uppercase;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.btn-devs:hover{
+    background-color: azure;
+    border: 1px solid lightslategray;
+    color: black;
+}
+
+.devs-img{
+    margin-top: 23px;
+    border-radius: 100%;
+    border: solid black 7px;
+}

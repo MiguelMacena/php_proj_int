@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/*____________________________________________________________*/
+/*                      Página Atividade                      */
+
+
+/* Cabeçalho */
+
+.cabeçalho {
+    height: 120px;
+    width: 100%;
+    background-color:slateblue; 
+    justify-content: auto;
+    display: flex;
+    justify-content: space-between;
+    float: inline-start;
+
+  }
+    
+.logo-jaf{
+    height: 100px;
+    width:200px;
+    display: flex;
+    margin: 10px;
+}
+
+.menu{
+  display: inline;
+  padding-top: 25px;
+}
+
+.lista-menu, .menu-li {
+  margin: 6px 15px 10px 10px;
+  display: flex;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu-link{
+  color: white;
+  padding: 5px;
+  display: inline-block;
+  text-decoration: none;
+}
+.menu-link:hover{
+  background-color: azure;
+  border-radius: 15px;
+  color: slateblue;
+}
+
+.menu-link:visited {
+  color: darkblue;
+}
+.menu-link:visited:hover {
+  color: darkred;
+}
+
+/* Corpo */
+
+
+.titulo-atividade, .texto-atividade {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:30px;
+    font-size: larger;
+  }
+  .titulo-atividade{
+    font-size: xx-large;
+  }
+  
+  .conteudo-atividade{
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    height: 1100px;
+    padding:0;
+    float: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    
+  } 
+  
+
+  /* Rodapé */
+  
+  footer {
+    background-color: slateblue;
+    text-align: center;
+    justify-content: center;
+    padding: 80px;
+    float: inline-end;
+    height: 400px;
+    margin-inline-end: auto;
+  }
+  
+  .texto-footer, .link-footer{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link-footer, .lista-devs{
+    font-size: large;
+    text-decoration: none;
+    list-style: none;
+  }
+  .link-footer:hover{
+    background-color: azure;
+    color: slateblue;
+    text-decoration: none;
+    border-radius: 15px;
+  }
+  
+  .c-shark{
+    height: 100px;
+    width:100px;
+  }
+  .btn-logo-cshark {
+    background: none;
+    border: 0;
+    height: 100px;
+  }
+
+  .label-ft{
+    height: 60px;
+    width: 500px;
+    padding: 20px 10px;
+    background-color:slateblue;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: .5s;
+    border:0;
+    font-size: small;
+    align-items: center;
+    position: relative;
+    color: azure;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .label-ft:hover{
+    background-color: azure;
+    color: slateblue;
+    border: 1px solid slateblue;
+  }
+  
+  .label-video{
+    height: 60px;
+    width: 500px;
+    padding: 20px 10px;
+    background-color:slateblue;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: .5s;
+    border: 0;
+    font-size:small;
+    align-items: center;
+    position: relative;
+    color: azure;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .label-video:hover{
+      background-color: azure;
+      color: slateblue;
+      border: 1px solid slateblue;
+
+  }
+
+  .enviar-atividade{
+    height: 60px;
+    width: 500px;
+    padding: 20px 10px;
+    background-color:darkred;
+    display: block;
+    margin-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    transition: .5s;
+    border: 0;
+    font-size:small;
+    align-items: center;
+    position: relative;
+    color: azure;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .enviar-atividade:hover{
+    background-color: azure;
+    color: slateblue;
+    border: 1px solid slateblue;
+
+  }
